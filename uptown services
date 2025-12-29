@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Uptown</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        background-image: url("https://preview.colorlib.com/theme/uptown/images/bg_1.jpg.webp");
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 600px;
+    }
+    .nav1{
+        color: white;
+        padding: 10px;
+    font-size: 24px;
+    }
+    .nav2{
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    }
+    nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: rgba(238, 99, 219, 0.952);
+    font-size: 19px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   
+    margin: 0 23px;
+}
+.nav1 a:hover {
+    color: rgba(255, 255, 255, 0.952);
+}
+ .head h1{
+        text-align: center;
+        font-size: 70px;
+        }
+header .head{
+    position: relative;
+    top: 180px;
+}
+.link ul{
+    display: flex;
+    justify-content: center;
+ list-style: none;
+ color: rgb(59, 56, 56);
+ font-size: 13px;
+ position: relative;
+    top: 180px;
+}
+.link ul li a{
+    text-decoration: none;
+    color: rgb(59, 56, 56);
+}
+.link ul li a:hover{
+    color: rgba(238, 99, 219, 0.952);
+}
+
+
+footer{
+    background-color: rgb(240, 240, 240);
+    padding: 40px 80px;
+    margin-top: 50px;
+    display: inline-flex;
+    width: 100%
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-box {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.footer-box h3 {
+    margin-bottom: 10px;
+}
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-box ul li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.footer-box p {
+    font-size: 14px;
+}
+.social span {
+    margin-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+</style>
+<body>
+    <header>
+         <nav class="nav1">
+            <a href="index.html">Uptown </a>
+        </nav>
+        <nav class="nav2">
+           <ul>
+            <li><a href="index.html">Home </a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="agent.html">Agent</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="property.html">Properties</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="link">
+            <ul>
+                 <li><a href="index.html">HOME> </a></li>
+                 <li>PROPERTIES> </li>
+            </ul>
+        </div>
+
+        <div class="head">
+
+            <h1>Choose <br>Your Desired Home</h1>
+            </div>
+    </header>
+
+    <footer>
+        <div class="footer-box">
+            <h3>Uptown</h3>
+            <p>Far far away, behind the word mountains, far from the countries.</p>
+            <div class="social">
+                <span>🐦</span>
+                <span>📘</span>
+                <span>📸</span>
+            </div>
+        </div>
+
+        <div class="footer-box">
+            <h3>Community</h3>
+            <ul>
+                <li>Search Properties</li>
+                <li>For Agents</li>
+                <li>Reviews</li>
+                <li>FAQs</li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>About Us</h3>
+            <ul>
+                <li>Our Story</li>
+                <li>Meet the Team</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Company</h3>
+            <ul>
+                <li>About Us</li>
+                <li>Press</li>
+                <li>Contact</li>
+                <li>Careers</li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Have a Questions?</h3>
+            <p>📍 203 Fake St. Mountain View, San Francisco, USA</p>
+            <p>📞 +2 392 3929 210</p>
+            <p>✉ info@yourdomain.com</p>
+        </div>
+
+    </div>
+</footer>
+
+
+</body>
+</html>
